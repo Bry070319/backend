@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": "1234",
+      "name": "Rachel Saenz",
+      "email": "rachels.saenz@hotmail.com",
+      "password": "123456",
+      "role": "gerente"
+    },
+    {
+      "id": "56789",
+      "name": "Norma Palacios",
+      "email": "norma.palacios@hotmail.com",
+      "password": "123456",
+      "role": "usuario"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Sistema de Gestión",
+      "description": "Proyecto inicial de prueba"
+    }
+  ],
+  "task": [
+    {
+      "id": 1,
+      "projectId": 1,
+      "title": "Configurar entorno de desarrollo",
+      "completed": false
+    }
+  ]
+}
