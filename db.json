@@ -22,7 +22,7 @@
       "description": "Proyecto inicial de prueba"
     }
   ],
-  "task": [
+  "tasks": [
     {
       "id": 1,
       "projectId": 1,
