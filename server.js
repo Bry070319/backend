@@ -5,7 +5,14 @@ const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
-server.use(cors()); // permite acceso desde cualquier origen
+// CORS para tu frontend en Vercel
+const corsOptions = {
+  origin: "https://sistema-gestion-proyecto.vercel.app",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type"],
+};
+
+server.use(cors(corsOptions));
 server.use(jsonServer.bodyParser);
 server.use(middlewares);
 server.use(router);
