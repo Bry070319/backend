@@ -18,16 +18,17 @@
   "projects": [
     {
       "id": 1,
-      "name": "Sistema de Gestión",
-      "description": "Proyecto inicial de prueba"
+      "name": "Proyecto Ejemplo",
+      "description": "Proyecto de prueba"
     }
   ],
   "tasks": [
     {
       "id": 1,
       "projectId": 1,
-      "title": "Configurar entorno de desarrollo",
-      "completed": false
+      "title": "Tarea de ejemplo",
+      "completed": false,
+      "assignedTo": "1234"
     }
   ]
 }
